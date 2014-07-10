@@ -37,6 +37,7 @@ cp -r ~/lasperduta_temp/node_modules .
 echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 echo "Committing and pushing!"
 echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
+git add -A
 git commit -a -m "Updating"
 git push origin gh-pages
 
