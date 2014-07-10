@@ -17,7 +17,8 @@ module.exports = function (grunt) {
     gruntConfig.includereplace = {
         dist: {
             files: [
-                {src: '**/*.html', dest: 'dist/', expand: true, cwd: 'pages/'}
+                {src: '**/*.html', dest: 'dist/', expand: true, cwd: 'pages/'},
+                {src: 'CNAME', dest: 'dist/', expand: true, cwd: 'pages/'}
             ]
         }
     };

@@ -14,13 +14,13 @@ npm install
 grunt build_all
 
 echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
-echo "Copying dist to ~/lasperduta.com.dist"
+echo "Copying dist to ~/lasperduta_temp"
 echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
-rm -rf ~/lasperduta.com
-mkdir ~/lasperduta.com
+rm -rf ~/lasperduta_temp
+mkdir ~/lasperduta_temp
 
-cp -r node_modules ~/lasperduta.com/
-cp -r dist ~/lasperduta.com/
+cp -r node_modules ~/lasperduta_temp/
+cp -r dist ~/lasperduta_temp/
 
 echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 echo "Switching to gh_pages"
@@ -30,13 +30,9 @@ git checkout gh-pages
 echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 echo "Copying new files here"
 echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
-rm -rf
-cp -r ~/lasperduta.com/* .
-
-echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
-echo "Cleaning up ~/lasperduta.com.dist"
-echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
-rm -rf ~/lasperduta.com
+rm -rf *
+cp -r ~/lasperduta_temp/dist/* .
+cp -r ~/lasperduta_temp/node_modules .
 
 echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 echo "Committing and pushing!"
