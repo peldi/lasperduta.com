@@ -16,7 +16,7 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="directions.html">Directions</a></li>
+                <li><a href="photos.html">Photos</a></li>
 <!--                <li><a href="about.html">Photos</a></li>-->
 <!--                <li><a href="blog.html">Recipes</a></li>-->
 <!--                <li><a href="contact.html">Le Marche</a></li>-->

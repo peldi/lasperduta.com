@@ -1,0 +1,19 @@
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="868" measuredH="700" mockupW="808" mockupH="680">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="60" y="20" w="808" h="680" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="339" y="264" w="437" h="378" measuredW="275" measuredH="80" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Directions%0APhotos%0APeople%0AInstructions%0A-%20internet%0A-%20shopping%0A-%20laundry%0A-%20dishwasher%0A-%20compost%0ARecipes%0A-%20cocktails%0A-%20food%0A-%20pizza%0AThings%20to%20do%20around%0A-%20Beaches%0A-%20Restaurants%0A-%20Medieval%20Festivals</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::MenuBar" x="277" y="174" w="-1" h="-1" measuredW="375" measuredH="21" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Directions%2C%20Photos%2C%20People%2C%20Recipes%2C%20Things%20To%20Do</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
