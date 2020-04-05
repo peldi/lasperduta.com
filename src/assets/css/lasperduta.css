@@ -1,5 +1,5 @@
 body {
-  background: url(../img/bg.jpg) no-repeat center center fixed; 
+  background: url(../img/slide-14.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -41,8 +41,14 @@ hr {
   font-weight: 400;
 }
 
+.gallerydiv {
+  width: 100%;
+  text-align: center;
+}
+
 .img-full {
-  min-width: 100%;
+  max-height: 640px;
+  display: inline;
 }
 
 .brand-name {

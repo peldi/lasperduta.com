@@ -99,12 +99,9 @@ if (developmentEnvironment) {
                     copyAssets();
                 }
                 if (filename.endsWith('.inc')) {
-                    clearPathListsCache();
                     processHTMLs();
-                    processWordpressThemeFiles();
                 }
                 if (filename.endsWith('.html')) {
-                    clearPathListsCache();
                     processHTMLs();
                     if (eventType !== 'change') {
                         createSitemap();
