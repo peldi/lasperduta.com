@@ -6,6 +6,6 @@
 
     <title>@@title - La Sperduta</title>
 
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/lasperduta.css" rel="stylesheet">
 </head>

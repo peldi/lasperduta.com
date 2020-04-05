@@ -1,16 +1,19 @@
 {
   "name": "lasperduta.com",
   "version": "0.1.0",
+  "description": "lasperduta.com",
+  "license": "UNLICENSED",
   "repository": {
     "type": "git",
     "url": "https://github.com/peldi/lasperduta.com.git"
   },
   "devDependencies": {
-    "grunt": "^1.1.0",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-copy": "~0.5.0",
-    "grunt-contrib-watch": "^1.1.0",
-    "grunt-http-server": "^2.1.0",
-    "grunt-include-replace": "~2.0.0"
+    "connect": "^3.7.0",
+    "fs": "0.0.1-security",
+    "fs-extra": "^9.0.0",
+    "node": "^13.12.0",
+    "path": "^0.12.7",
+    "serve-static": "^1.14.1",
+    "sitemap": "^1.13.0"
   }
 }

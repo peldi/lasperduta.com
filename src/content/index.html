@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-@@include('_head.inc', {"title": "Home"})
+@@include['_head.inc', {"title": "Home"}]
 
 <body>
 
-@@include('_navigation.inc')
+@@include['_navigation.inc']
 
 <div class="container">
 
@@ -29,17 +29,6 @@
     </div>
 
 </div>
-<!-- /.container -->
 
-@@include('_footer.inc')
+@@include['_footer.inc']
 
-<script>
-    // Activates the Carousel
-    $('.carousel').carousel({
-        interval: 5000
-    })
-</script>
-
-</body>
-
-</html>
